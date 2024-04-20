@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  background: var(--bg-col);
+  background-image: url(images/dust.png);
+  background-size: cover 4px 4px;
+}
+
+:root {
+  --bg-col: #dcdcdc;
+  --border-col: #828282;
+  --text-col: #0a0a0a;
+}
+/* .middle {
+  background-image: url(images/asfalt-dark.png);
+  background-size: cover 4px 4px;
+} */

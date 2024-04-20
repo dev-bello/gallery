@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <title>My Gallery</title>
+  </head>
+
+  <body>
+    <nav
+      class="lg:flex sm:hidden flex-row p-16 gap-20 w-full justify-between w-1/2"
+    >
+      <div class="border-b-2 border-[#828282] border-r-2">
+        <div class="flex items-center gap-[250px]">
+          <div class="lg:h-5 md:h-4 border lg:w-5 md:w-6 bg-[#0a0a0a]"></div>
+
+          <a href="about.html" class="hover:text-[#303170] hover:duration-700"
+            >About Project</a
+          >
+
+          <h2 class="mr-20">&copy; 2024</h2>
+        </div>
+      </div>
+      <div class="flex flex-row items-center gap-20 justify-between">
+        <a href="#" class="hover:text-[#303170]">Categories</a>
+        <div class="grid gap-1" id="bar">
+          <div class="border-b-2 border-[#828282] w-12 h-[0.5px]"></div>
+          <div class="border-b-2 border-[#828282] w-12 h-[0.5px]"></div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="ml-[10rem] relative">
+      <h2 class="text-[#0a0a0a] sm:text-4xl md:text-8xl">φωτογραφία</h2>
+
+      <section
+        class="absolute m-2 p-2 w-[45px] right-0 top-0 cursor-not-allowed shadow shadow-[#000] rounded-sm"
+        id="left_section"
+      >
+        <img src="images/right-img.png" alt="camera" />
+      </section>
+      <section
+        class="absolute p-4 lg:w-[20rem] lg:h-[20rem] md:w-[15rem] h-[15rem] lg:right-0 lg:top-[100%] md:right-[-50%] cursor-not-allowed"
+      >
+        <img
+          src="images/tree.PNG"
+          alt="tree icon"
+          class="h-full w-full"
+          style="object-fit: cover"
+        />
+      </section>
+      <section
+        class="absolute lg:w-[20rem] lg:h-[23rem] mt-20 md:w-[15rem] md:h-[20rem] lg:flex sm:hidden p-2 left-0 shadow shadow-[#000] rounded-sm"
+        id="left_section"
+      >
+        <img
+          src="images/round.JPG"
+          alt="camera man aliiyu"
+          class="h-full w-full object-cover"
+        />
+      </section>
+    </main>
+    <section
+      class="absolute lg:top-[30%] lg:left-[33%] md:top-[40%] md:left-[49%] bg-[#000] lg:w-[20rem] lg:h-[20rem] md:w-[19rem] md:h-[19rem] opacity-[0.4] rounded-full items-center justify-center"
+    >
+      <img
+        src="images/black-linen.png"
+        class="relative flex rounded-full"
+        alt=""
+      />
+    </section>
+
+    <section
+      class="absolute lg:w-[210px] lg:h-[100px] md:w-[190px] md:h-[90px] lg:left-[50%] md:left-[79%] ml-[6rem]"
+    >
+      <div class="w-xl h-xl grid grid-cols-2 gap-2 object-cover">
+        <img
+          src="images/img1.jpg"
+          alt=""
+          style="
+            clip-path: polygon(
+              0% 0%,
+              16% 2%,
+              39% 0%,
+              83% 4%,
+              100% 0%,
+              100% 24%,
+              98% 48%,
+              100% 75%,
+              100% 100%,
+              75% 97%,
+              45% 100%,
+              1% 100%,
+              7% 81%,
+              0% 56%
+            );
+          "
+        />
+        <img
+          src="images/img4.jpg"
+          alt=""
+          style="
+            clip-path: polygon(
+              0% 0%,
+              16% 2%,
+              39% 0%,
+              83% 4%,
+              100% 0%,
+              100% 24%,
+              98% 48%,
+              100% 75%,
+              100% 100%,
+              75% 97%,
+              45% 100%,
+              1% 100%,
+              7% 81%,
+              0% 56%
+            );
+          "
+        />
+        <img
+          src="images/img3.jpg"
+          alt=""
+          style="
+            clip-path: polygon(
+              0% 0%,
+              16% 2%,
+              39% 0%,
+              83% 4%,
+              100% 0%,
+              100% 24%,
+              98% 48%,
+              100% 75%,
+              100% 100%,
+              75% 97%,
+              45% 100%,
+              1% 100%,
+              7% 81%,
+              0% 56%
+            );
+          "
+        />
+        <img
+          src="images/img2.jpg"
+          alt=""
+          style="
+            clip-path: polygon(
+              0% 0%,
+              16% 2%,
+              39% 0%,
+              83% 4%,
+              100% 0%,
+              100% 24%,
+              98% 48%,
+              100% 75%,
+              100% 100%,
+              75% 97%,
+              45% 100%,
+              1% 100%,
+              7% 81%,
+              0% 56%
+            );
+          "
+        />
+      </div>
+    </section>
+    <section
+      class="absolute lg:bottom-[50%] md:bottom-[30%] bg-[none] lg:right-[30%] md:right-[-4rem] z-10"
+    >
+      <h2
+        class="flex justify-between items-center p-4 m-2 absolute left-[50%] top-[40%]"
+      >
+        ''' Photograph: a picture painted by the sun without instruction in art.
+        '''
+      </h2>
+    </section>
+    <section
+      class="absolute p-5 items-center lg:top-[80%] lg:left-[40%] md:top-[100%] md:left-[60%] z-0 max-w-md shadow shadow-[#828282] rounded-md"
+    >
+      <h4>
+        ''' My collection of minimalist Photos. The presentation of beautiful
+        aestheically appealing JPEGs 🪷 '''
+      </h4>
+
+      <p
+        class="lg:text-lg md:text-md p-2 font-extrabold hover:text-[#303170] hover:duration-700"
+      >
+        <a href="#" class="bg-sky-500 lg:p-2 md:p-1 rounded-lg"> More ?</a>
+      </p>
+    </section>
+    <a href="#">
+      <div
+        class="absolute lg:top-[90%] lg:left-[5%] md:top-[37rem] md:left-[1rem] shadow shadow-[#193350] p-2 border-double border-4 border-sky-500"
+      >
+        <i>&#x2190;</i>
+      </div></a
+    >
+    <a href="#">
+      <div
+        class="absolute lg:top-[90%] lg:right-[10%] md:top-[37rem] md:right-[-17rem] shadow p-2 shadow-[#193350] border-double border-4 border-sky-500"
+      >
+        <i>&#x2192;</i>
+      </div></a
+    >
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
