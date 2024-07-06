@@ -13,9 +13,7 @@
   </head>
 
   <body>
-    <nav
-      class="lg:flex sm:hidden flex-row p-16 gap-20 w-full justify-between w-1/2"
-    >
+    <nav>
       <div class="border-b-2 border-[#828282] border-r-2">
         <div class="flex items-center gap-[250px]">
           <div class="lg:h-5 md:h-4 border lg:w-5 md:w-6 bg-[#0a0a0a]"></div>
@@ -36,50 +34,41 @@
       </div>
     </nav>
 
-    <main class="ml-[10rem] relative">
-      <h2 class="text-[#0a0a0a] sm:text-4xl md:text-8xl">φωτογραφία</h2>
+    <main>
+      <h2>φωτογραφία</h2>
 
-      <section
-        class="absolute m-2 p-2 w-[45px] right-0 top-0 cursor-not-allowed shadow shadow-[#000] rounded-sm"
+      <div
+        class="camera cursor-not-allowed shadow shadow-[#000] rounded-sm"
         id="left_section"
       >
         <img src="images/right-img.png" alt="camera" />
-      </section>
-      <section
-        class="absolute p-4 lg:w-[20rem] lg:h-[20rem] md:w-[15rem] h-[15rem] lg:right-0 lg:top-[100%] md:right-[-50%] cursor-not-allowed"
-      >
+      </div>
+      <div class="tree cursor-not-allowed">
         <img
           src="images/tree.PNG"
           alt="tree icon"
           class="h-full w-full"
           style="object-fit: cover"
         />
-      </section>
-      <section
-        class="absolute lg:w-[20rem] lg:h-[23rem] mt-20 md:w-[15rem] md:h-[20rem] lg:flex sm:hidden p-2 left-0 shadow shadow-[#000] rounded-sm"
-        id="left_section"
-      >
+      </div>
+      <div class="picture shadow shadow-[#000] rounded-sm" id="left_section">
         <img
           src="images/round.JPG"
-          alt="camera man aliiyu"
+          alt="picture"
           class="h-full w-full object-cover"
         />
-      </section>
+      </div>
     </main>
-    <section
-      class="absolute lg:top-[30%] lg:left-[33%] md:top-[40%] md:left-[49%] bg-[#000] lg:w-[20rem] lg:h-[20rem] md:w-[19rem] md:h-[19rem] opacity-[0.4] rounded-full items-center justify-center"
-    >
+    <div class="linen__black rounded-full">
       <img
         src="images/black-linen.png"
         class="relative flex rounded-full"
         alt=""
       />
-    </section>
+    </div>
 
-    <section
-      class="absolute lg:w-[210px] lg:h-[100px] md:w-[190px] md:h-[90px] lg:left-[50%] md:left-[79%] ml-[6rem]"
-    >
-      <div class="w-xl h-xl grid grid-cols-2 gap-2 object-cover">
+    <section class="gallery__grid">
+      <div>
         <img
           src="images/img1.jpg"
           alt=""
@@ -170,19 +159,13 @@
         />
       </div>
     </section>
-    <section
-      class="absolute lg:bottom-[50%] md:bottom-[30%] bg-[none] lg:right-[30%] md:right-[-4rem] z-10"
-    >
-      <h2
-        class="flex justify-between items-center p-4 m-2 absolute left-[50%] top-[40%]"
-      >
+    <section class="quote__1 bg-[none]">
+      <h2>
         ''' Photograph: a picture painted by the sun without instruction in art.
         '''
       </h2>
     </section>
-    <section
-      class="absolute p-5 items-center lg:top-[80%] lg:left-[40%] md:top-[100%] md:left-[60%] z-0 max-w-md shadow shadow-[#828282] rounded-md"
-    >
+    <section class="quote__2 shadow shadow-[#828282] rounded-md">
       <h4>
         ''' My collection of minimalist Photos. The presentation of beautiful
         aestheically appealing JPEGs 🪷 '''

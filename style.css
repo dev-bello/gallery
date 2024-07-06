@@ -17,7 +17,93 @@
   --border-col: #828282;
   --text-col: #0a0a0a;
 }
-/* .middle {
-  background-image: url(images/asfalt-dark.png);
-  background-size: cover 4px 4px;
-} */
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+main {
+  position: relative;
+  margin-left: 10rem;
+}
+main h2 {
+  color: var(--text-col);
+  font-size: 5.5rem;
+  margin-left: 7rem;
+}
+.camera {
+  position: absolute;
+  width: 45px;
+  right: 0;
+  top: 0;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.tree {
+  position: absolute;
+  width: 20rem;
+  height: 15rem;
+  right: 0;
+  top: 100%;
+  padding: 1rem;
+}
+.picture {
+  position: absolute;
+  width: 20rem;
+  height: 24rem;
+  padding: 0.5rem;
+  left: 0;
+  margin-top: 5rem;
+}
+.linen__black {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  background-color: #000;
+  width: 20rem;
+  height: 20rem;
+  opacity: 0.4;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__grid {
+  position: absolute;
+  width: 210px;
+  height: 100px;
+  left: 50%;
+  margin-left: 6rem;
+}
+.gallery__grid div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.4rem;
+  object-fit: cover;
+}
+.quote__1 {
+  position: absolute;
+  bottom: 50%;
+  right: 30%;
+  z-index: 10;
+}
+.quote__1 h2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.25rem;
+  top: 40%;
+  left: 50%;
+}
+.quote__2 {
+  position: absolute;
+  align-items: center;
+  top: 80%;
+  left: 40%;
+  padding: 1.25rem;
+  max-width: 28rem;
+  z-index: 0;
+}
