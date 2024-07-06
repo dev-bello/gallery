@@ -107,3 +107,30 @@ main h2 {
   max-width: 28rem;
   z-index: 0;
 }
+.quote__2 p {
+  padding: 0.25rem;
+  font-weight: bolder;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem;
+}
+.quote__2 p:hover {
+  color: #303170;
+}
+.quote__2 a {
+  padding: 0.25rem;
+}
+.btn__left div {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  padding: 0.25rem;
+}
+.btn__right div {
+  position: absolute;
+  top: 90%;
+  right: 10%;
+  padding: 0.25rem;
+}
+
+@media screen {
+}
